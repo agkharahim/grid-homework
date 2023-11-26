@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400;1,500&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300;500;600&family=Raleway:wght@500;600;800&family=Roboto+Condensed:wght@700;800;900&family=Roboto+Slab:wght@200;300;400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Task 1 Style Sheet here  */
+.grid-1-body {
+    background-color:#471043;
+}
+.grid-container-1 {
+   width: 80%;
+   height: 550px;
+   margin: 100px auto;
+   border: 3px dashed grey;
+   display: grid;
+   grid-template-columns: auto auto auto auto auto;
+   grid-template-rows: auto auto auto;
+   gap: 30px;
+   
+}
+
+.grid-container-1 .grid-1-lightgreen {
+    grid-area: 1 / 1 / 3 / 3;
+    background-color: #3ca684;
+
+    border-radius: 20px;
+}
+
+.grid-container-1 .grid-1-lightblue {
+    grid-area: 1 / 3 / 2 / 6 ;
+    background-color:#3db6b8;
+    border-radius: 20px;
+}
+
+.grid-container-1 .grid-1-pink {
+   grid-area: 3 / 1 / 3 / 3;
+    background-color:#b34daa;
+    border-radius: 20px;
+}
+
+.grid-container-1 .grid-1-tomato {
+    grid-area: 2 / 3 / 4 / 5 ;
+    background-color:#b85746;
+    border-radius: 20px;
+}
+
+.grid-container-1 .grid-1-darkgreen {
+    
+    background-color:#233633;  
+    border-radius: 20px; 
+}
+
+.grid-container-1 .grid-1-lightbrown {
+    
+    background-color:#8f8c85;
+    border-radius: 20px;
+}
+
+
+/* Task 2 Style Sheet here  */
+
+.grid-container-2 {
+    width: 80%;
+    height: 500px;
+    margin: 100px auto;
+    border:10px solid #111111;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap:10px;
+    background-color:#111111;
+}
+
+.grid-2-item-1 {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color:#ab0505;
+}
+
+.grid-2-item-2 {
+    grid-area: 1 / 2 / 2 / 4 ;
+    background-color:#05aab3;
+}
+
+.grid-2-item-3 {
+    grid-area: 1 / 4 / 2 / 6;
+    background-color:#8f844f;
+}
+
+.grid-2-item-4 {
+    grid-area: 2 / 2 / 4 / 3 ;
+    background-color:#8f844f;
+
+}
+
+.grid-2-item-5 {
+    grid-area: 2 / 3 / 4 / 5;
+    background-color: #fff ;
+}
+
+.grid-2-item-6 {
+    grid-area: 2 / 5 / 5 / 6;
+    background-color:#ab0505;
+}
+
+.grid-2-item-7 {
+    grid-area: 3 / 1 / 5 / 2;
+    background-color: #fff ;
+}
+
+.grid-2-item-8 { 
+    grid-column: 2 / 4 ;
+    background-color: #ab0505;
+}
+
+.grid-2-item-9 {
+    grid-area: auto;
+    background-color: #05aab3;
+}
+
+
+/* Task 3 Style Sheet here  */
+
+
+.grid-3-container {
+    width: 75%;
+    height: 400px;
+    border: 8px solid #00fff7;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto ;
+    grid-gap: 10px;
+    background-color:#00fff7;
+
+    
+}
+
+.grid-3-items {
+
+    background-color:#d6a102;
+    color: #150240;
+    text-align: center;
+    font-size: 125px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-3-item-4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.grid-3-item-5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.grid-3-item-6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.grid-3-item-7 {
+    grid-area: 2 / 4 / 3 / 5 ;
+}
+
+
+/* Task 4 Style Sheet here  */
+
+
+.grid-4-container-div {
+    width: 80%;
+    height: 550px;
+    border: 8px solid #dffffe;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    background-color:#e1fffe;
+}
+
+.grid-4-items {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 52px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color:#fff;
+
+}
+
+.grid-4-item-1 {
+    grid-column: 3 span;
+    background-color:deepskyblue ;
+}
+
+.grid-4-item-2 {
+    grid-column: 2 span;
+    grid-row: 2 span;
+    background-color:crimson ;
+}
+
+.grid-4-item-3 {
+    background-color:royalblue;
+}
+
+.grid-4-item-4 {
+    background-color:gold ;
+}
+
+.grid-4-item-5 {
+    background-color:darkviolet;
+}
+
+.grid-4-item-6 {
+    background-color:forestgreen ;
+}
+
+.grid-4-item-7 {
+    background-color:coral ;
+}
+
+.grid-4-item-8 {
+    background-color: darkcyan;
+}
+
+.grid-4-item-9 {
+    background-color:darkred;
+}
+
+
+/* Task 5 Style Sheet here  */
+
+.grid-5-container-div {
+    width: 75%;
+    height: 550px;
+    border: 8px solid #dffffe;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 10px;
+    background-color:#e1fffe;
+}
+
+.grid-5-items {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    color:#fff;
+
+}
+
+.grid-5-item-1 {
+    background-color:deepskyblue ;
+}
+
+.grid-5-item-2 {
+    background-color:crimson ;
+}
+
+.grid-5-item-3 {
+    background-color:royalblue;
+}
+
+.grid-5-item-4 {
+    background-color:gold ;
+}
+
+.grid-5-item-5 {
+    background-color:darkviolet;
+}
+
+.grid-5-item-6 {
+    background-color:forestgreen ;
+}
+
+.grid-5-item-7 {
+    background-color:coral ;
+}
+
+.grid-5-item-8 {
+    background-color: darkcyan;
+}
+
+.grid-5-item-9 {
+    background-color:darkred;
+}
+
+/* Task 6 Style Sheet here  */
+
+.grid-6-container {
+    width: 85%;
+    height: 600px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;  
+    grid-gap:20px;
+
+}
+
+.grid-6-container .grid-6-items img {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-6-item-1 {
+   grid-column: 2 span ;
+   grid-row: 2 span;
+}
+
+.grid-6-item-2 {
+    grid-area: auto;
+}
+
+.grid-6-item-3 {
+    grid-area: auto;
+}
+
+.grid-6-item-4 {
+    grid-row: 2 span;
+}
+.grid-6-item-5 {
+    grid-column: 2 span;
+}
+.grid-6-item-7 {
+    grid-column: 2 span;
+}
+
+.grid-6-item-10 {
+    grid-column: 2 span;
+}
+
+.grid-6-item-11 {
+    grid-row: 2 span ;
+}
+
+.grid-6-item-12 {
+    grid-column: 2 span;
+    grid-row: 2 span;
+}
+
+/* Task 7 Style Sheet here  */
+
+.grid-7-container {
+    width: 80%;
+    height: 600px;
+    background: linear-gradient(to right , #e81099,#f538e2);
+    margin: 100px auto;
+    border: none;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto ;
+    grid-gap: 25px;
+    
+
+    
+}
+
+.grid-7-items {
+
+    background-color:#deba09;
+    color: #112213;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.grid-7-item-4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.grid-7-item-5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.grid-7-item-6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.grid-7-item-7 {
+    grid-area: 2 / 4 / 3 / 5 ;
+}
+
+.grid-7-item-8 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.grid-7-item-9 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.grid-7-item-10 {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.grid-7-item-11 {
+    grid-area: 4 / 1 / 5 / 2 ;
+}
+
+.grid-7-item-12 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.grid-7-item-13 {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.grid-7-item-14 {
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+
+/* Task 8 Style Sheet here  */
+
+.grid-8-container-div {
+    width: 50%;
+    height: 610px;
+    background-color:#e1fffe;
+    margin: 100px auto;
+    border: none;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto auto ;
+    grid-gap: 10px;
+    
+}
+
+.grid-8-item-1 {
+    grid-column: 3 span;
+    background-color:red ;
+}
+
+.grid-8-item-2 {
+    grid-column: 2 span;
+    
+    background-color:chocolate ;
+}
+
+.grid-8-item-3 {
+    grid-row: 2 span;
+    background-color:yellow;
+}
+
+.grid-8-item-4 {
+    background-color:dodgerblue ;
+}
+
+.grid-8-item-5 {
+    background-color:rebeccapurple;
+}
+
+.grid-8-item-6 {
+    grid-column: 3 span;
+    background-color:forestgreen ;
+}
+
+.grid-8-items { 
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+}
+
+/* Task 9 Style Sheet here  */
+
+.grid-9-container-div {
+    width: 90%;
+    height: 500px;
+    border: none;
+    border-radius:5px;
+    margin: 50px auto;
+    display: grid;
+    grid-gap:6px ;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
+    grid-template-rows: auto auto auto auto ;
+}
+
+.grid-9-items {
+    background:#00fff7;
+}
+
+.grid-9-item-1 {
+    grid-column: 3 span;
+    background-color:fuchsia;
+
+}
+
+.grid-9-item-2 {
+    grid-column: 4 span;
+    grid-row: 2 span ;
+    background-color:#e81099;
+}
+
+.grid-9-item-3 {
+    grid-column: 4 span;
+    grid-row: 4 span;
+    font-size: 40px;
+    background-color:coral;
+}
+
+.grid-9-item-4  {
+    grid-column: 3 span;
+    background-color:yellow;
+}
+.grid-9-item-5 {
+    grid-column: 3 span;
+    background-color:forestgreen;
+}
+
+.grid-9-item-6 {
+    grid-column: 3 span;
+    background-color: darkcyan;
+}
+
+.grid-9-item-7  {
+    grid-column: 3 span;
+    background-color:darkolivegreen;
+}
+
+.grid-9-item-8 {
+    background-color:forestgreen;
+    
+}
+
+.grid-9-item-9 {
+    grid-column: 3 span;
+    background-color: deepskyblue;
+}
+
+
+.grid-9-item-10 {
+    grid-column: 3 span;
+    background-color:lightseagreen;
+}
+
+.grid-9-item-11 {
+    grid-column: 7 span;
+    background-color: rebeccapurple;
+}
+
+.grid-9-item-12 {
+    grid-column: 3 span;
+    background-color: red;
+}
+
+.grid-9-items {
+    text-align: center;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.grid-9-item-3 span {
+    position: relative;
+    top: 160px;
+    margin: auto;
+}
+
+
+/* Task 10 Style Sheet here  */
+
+.grid-10-container {
+    width: 65%;
+    height: auto;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 18px;
+    border: 1px solid #828282;
+    border-radius:4px;
+    padding: 20px;
+}
+
+.grid-10-items {
+    width: 300px;
+    margin: auto;
+}
+
+.grid-10-items img {
+    width: 100% ;
+    height: 100%;
+}
+
+
+
+.grid-10-item-2 {
+    grid-row: 2 span;
+}
+
+
+
+.grid-10-item-4 {
+    grid-row: 2 span;
+}
+
+
+
+.grid-10-item-5 {
+    grid-row: 2 span;
+}
+
+/* Task 11 Style Sheet here  */
+
+.grid-11-container {
+    width: 90%;
+    height: 600px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 10px;
+    background-color:#0b1f42;
+    border:5px solid #0b1f42;
+}
+
+.grid-11-item-1 {
+
+    background:linear-gradient(to right,#0fd4b3,#0fd4cd);
+}
+.grid-11-item-2 {
+    grid-column: 2 span;
+    background:linear-gradient(to right, #0fd4cd,#10b4e6);
+}
+.grid-11-item-3 {
+    grid-row: 3 span;
+    background:linear-gradient(#f393fa,#c56acc)
+}
+
+.grid-11-item-4 {
+    grid-row: 3 span;
+    background:linear-gradient(#f393fa,#c56acc)
+}
+
+.grid-11-item-5 {
+    grid-row: 3 span;
+    background:linear-gradient(#f393fa,#c56acc)
+}
+.grid-11-item-6 {
+    grid-column: 2 span;
+    background:linear-gradient(to right,#0fd4b3,#0fd4cd);
+}
+.grid-11-item-7 {
+    grid-row: 2 span;
+    background:linear-gradient(to right, #0fd4cd,#10b4e6);
+}
+.grid-11-item-8 {
+
+    background:linear-gradient(to right,#0fd4b3,#0fd4cd);
+}
+.grid-11-item-9 {
+
+    background:linear-gradient(to right,#0fd4b3,#0fd4cd);
+}
+
+/* Task 12 Style Sheet here  */
+
+.grid-12-container {
+    width: 60%;
+    height: 500px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto ;
+    grid-gap: 10px;
+}
+
+.grid-12-item-1 {
+    grid-column: 2 span;
+    background-color:rgb(200, 7, 46);
+}
+
+.grid-12-item-2 {
+    grid-column: 3 span;
+    background-color: rgb(34, 148, 148);
+}
+
+.grid-12-item-3 {
+    background-color: rgb(13, 118, 74);
+}
+
+.grid-12-item-4 {
+    grid-row: 3 span ;
+    background-color: rgb(62, 111, 255);
+}
+
+.grid-12-item-5 {
+    grid-column: 2 span;
+    grid-row: 2 span;
+    background-color: rgb(255, 119, 0);
+}
+
+.grid-12-item-6 {
+    grid-column: 4 span;
+    grid-row: 2 span;
+    background-color: rgb(218, 113, 78);
+}
+
+/* Task 13 Style Sheet here  */
+
+
+.grid-13-container {
+    width: 80%;
+    height: 400px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto ;
+    gap: 30px;
+}
+
+.grid-13-items {
+    background-color:#2a302f;
+    color: #fff;
+    font-size: 72px;
+    border-radius:30px;
+    font-family: 'Roboto Slab', serif;}
+
+.grid-13-items span {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+
+/* Task 14 Style Sheet here  */
+
+.grid-14-container {
+    width: 50%;
+    height: 600px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto ;
+    gap: 10px;
+}
+
+.grid-14-item-1 {
+    background-color:rgb(60, 167, 126);
+}
+
+.grid-14-item-2 {
+    background-color: rgb(193, 91, 8);
+}
+
+.grid-14-item-3 {
+    background-color: rgb(74, 21, 78);
+}
+
+.grid-14-item-4 {
+    background-color: rgb(210, 24, 107)
+}
+
+.grid-14-item-5 {
+    grid-column: 2 span;
+    grid-row: 2 span;
+    background-color: rgb(34, 209, 66)
+}
+
+.grid-14-item-6 {
+    background-color: rgb(73, 110, 204)
+}
+
+.grid-14-items {
+    text-align: center;
+}
+.grid-14-items span {
+    position: relative;
+    top: 50px;
+    color:#fff;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* Task 15 Style Sheet here  */
+
+.grid-15-container {
+    width: 60%;
+    height: 600px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+
+.grid-15-item-1 {
+    grid-column: 2 span;
+    background-color:#762ce6;
+}
+
+.grid-15-item-2 {
+    grid-row: 2 span;
+    background-color:#c98dba;
+}
+
+.grid-15-item-3 {
+    grid-row:2 span;
+    background-color:#d4cf8c;
+}
+
+.grid-15-item-4 {
+    background-color:#38e2fc;
+}
+
+.grid-15-item-5 {
+    grid-column: 2 span;
+    background-color:#3cc77f;
+}
+
+.grid-15-items span {
+    padding: 20px;
+    
+}
+
+.grid-15-items a {
+    color:#600b91;
+}
